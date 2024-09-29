@@ -1,0 +1,8 @@
+* {
+  font-weight: 500;
+}
+body {
+  background: #00b4db;
+  background: -webkit-linear-gradient(to right, #0083b0, #00b4db);
+  background: linear-gradient(to right, #0083b0, #00b4db);
+}
