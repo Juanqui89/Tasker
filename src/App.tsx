@@ -31,14 +31,14 @@ const App = () => {
       >
         <input
           type="text"
-          className="rounded-[5px] bg-[#eee] text-[#000] text-center w-full p-[3px] cursor-pointer focus:outline-none md:h-[40px] custom1:h-[60px] xxl:h-[60px]"
+          className="rounded-[5px] bg-[#eee] text-[#000] text-center w-full p-[3px] cursor-pointer focus:outline-none md:h-[40px] xxl:h-[60px]"
           value={inputData}
           onChange={(e) => setInputData(e.target.value)}
         />
         <button
           type="button"
           onClick={handleAdd}
-          className="bg-[#240b36] text-[#fff] w-[100px] h-[34px] mb-[30px] ml-[10px] rounded-[5px] cursor-pointer p-[5px] focus:outline-none hover:bg-[#d50000] xs:mt-[20px] xs:mx-auto md:h-[40px] lg:text-[1.2em] custom1:h-[60px] xxl:h-[60px]"
+          className="bg-[#240b36] text-[#fff] w-[100px] h-[34px] mb-[30px] ml-[10px] rounded-[5px] cursor-pointer p-[5px] focus:outline-none hover:bg-[#d50000] xs:mt-[20px] xs:mx-auto md:h-[40px] lg:text-[1.2em] xxl:h-[60px]"
         >
           Add
         </button>
